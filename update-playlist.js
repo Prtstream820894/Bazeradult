@@ -33,7 +33,7 @@ async function getLiveDomain(testUrls) {
 
 // Category aur uska Group Title
 const categories = [
-    { path: 'genre/brazzers/', group: '🔞18+' }
+    { path: 'genre/brazzers/', group: '🫦adult' }
 ];
 
 async function generatePlaylist() {
@@ -47,7 +47,7 @@ async function generatePlaylist() {
         console.log(`\n--- Processing Category: ${cat.group} ---`);
         
         // 1 se 100 pages tak ka loop
-        for (let p = 1; p <= 150; p++) {
+        for (let p = 1; p <= 2; p++) {
             let targetPageUrl = p === 1 
                 ? `https://bold-darkness-d959.poonamchouhan076.workers.dev/?site=${catBaseUrl}`
                 : `https://bold-darkness-d959.poonamchouhan076.workers.dev/?site=${catBaseUrl}page/${p}/`;
