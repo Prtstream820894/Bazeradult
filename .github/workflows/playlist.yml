@@ -2,7 +2,7 @@ name: Update IPTV Playlist
 
 on:
   schedule:
-    - cron: '0 */12 * * *'
+    - cron: '0 0 * * *'  # ab har 24 ghante me 1 baar (raat 12 baje UTC / subah 5:30 IST)
   workflow_dispatch:
 
 jobs:
