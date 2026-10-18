@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 const fs = require('fs');
 
 // --- 🌐 CONFIGURATION: Domain change hone par bas yahan change karna hai ---
-const MAIN_SITE = "https://watchomovies.forum/";
+const MAIN_SITE = "https://watchomovies.study";
 
 const USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
